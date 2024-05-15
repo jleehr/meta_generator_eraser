@@ -1,0 +1,18 @@
+<?php
+/**
+ * @file
+ * Module file for Generator tag eraser module.
+ */
+
+/**
+ * Implements hook_page_attachements_alter().
+ * @param array $attachments
+ */
+function meta_generator_eraser_page_attachments_alter(array &$attachments): void
+{
+  foreach ($attachments['#attached']['html_head'] as $key => $attachment) {
+    if ($attachment[1] == 'system_meta_generator') {
+      unset($attachments['#attached']['html_head'][$key]);
+    }
+  }
+}

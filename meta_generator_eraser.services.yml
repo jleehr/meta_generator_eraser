@@ -1,0 +1,5 @@
+services:
+  meta_generator_eraser_response_subscriber:
+    class: Drupal\meta_generator_eraser\EventSubscriber\ResponseSubscriber
+    tags:
+      - { name: event_subscriber }

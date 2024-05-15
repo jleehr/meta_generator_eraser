@@ -1,0 +1,4 @@
+name: Generator tag eraser
+description: Removes the generator meta tag from head and headers.
+type: module
+core_version_requirement: ^10

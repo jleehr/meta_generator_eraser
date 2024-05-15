@@ -1,0 +1,17 @@
+{
+    "name": "jleehr/meta_generator_eraser",
+    "description": "Removes the generator meta tag from head and headers.",
+    "type": "drupal-module",
+    "minimum-stability": "stable",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jan Leehr (jleehr)",
+            "homepage": "https://github.com/jleehr",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "drupal/core": "^10"
+    }
+}
